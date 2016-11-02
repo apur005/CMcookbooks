@@ -17,7 +17,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-include_recipe 'java::notify'
+#include_recipe 'java::notify'
 
 unless node.recipe?('java::default')
   Chef::Log.warn('Using java::default instead is recommended.')
